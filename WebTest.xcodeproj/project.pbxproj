@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671C76971A35C8290014695E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C76961A35C8290014695E /* UIImageExtension.swift */; };
 		67B525351A25C331003094CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B525341A25C331003094CC /* AppDelegate.swift */; };
 		67B525371A25C331003094CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B525361A25C331003094CC /* ViewController.swift */; };
 		67B5253A1A25C331003094CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B525381A25C331003094CC /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		671C76961A35C8290014695E /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		67B5252F1A25C331003094CC /* WebTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B525331A25C331003094CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B525341A25C331003094CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 		67B525441A25C331003094CC /* WebTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B525491A25C331003094CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B5254A1A25C331003094CC /* WebTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTestTests.swift; sourceTree = "<group>"; };
+		67B525541A25C7EA003094CC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +82,12 @@
 			children = (
 				67B525341A25C331003094CC /* AppDelegate.swift */,
 				67B525361A25C331003094CC /* ViewController.swift */,
+				671C76961A35C8290014695E /* UIImageExtension.swift */,
 				67B525381A25C331003094CC /* Main.storyboard */,
 				67B5253B1A25C331003094CC /* Images.xcassets */,
 				67B5253D1A25C331003094CC /* LaunchScreen.xib */,
 				67B525321A25C331003094CC /* Supporting Files */,
+				67B525541A25C7EA003094CC /* MyPlayground.playground */,
 			);
 			path = WebTest;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			files = (
 				67B525371A25C331003094CC /* ViewController.swift in Sources */,
 				67B525351A25C331003094CC /* AppDelegate.swift in Sources */,
+				671C76971A35C8290014695E /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +411,7 @@
 				67B525501A25C331003094CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67B525511A25C331003094CC /* Build configuration list for PBXNativeTarget "WebTestTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				67B525531A25C331003094CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
