@@ -1,3 +1,3 @@
 # uimage-color-analysis-ios
 
-#First commit
+-- Colour analysis of images in swift
