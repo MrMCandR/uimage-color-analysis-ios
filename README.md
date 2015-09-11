@@ -1,3 +1,7 @@
-# uimage-color-analysis-ios
+Experimenting with colour analysis and matching
+=============================================================
 
--- Colour analysis of images in swift
+Images pulled from Apple's public JSON iTunes media API
+______________________
+
+- Colour analysis of images in swift.
